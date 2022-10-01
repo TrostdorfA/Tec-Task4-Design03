@@ -273,6 +273,10 @@ ol > li {
     margin-bottom: 6%;
 }
 
+.table {
+    margin: 0 auto;
+}
+
 .table th {
     padding-left: 15px;
     padding-bottom: 10px;
@@ -313,7 +317,6 @@ ol > li {
 
 .ulgames {
     margin-top: 10%;
-    padding: initial;
     list-style-position: inside;
     list-style-type: none;
 }
@@ -491,13 +494,13 @@ footer {
     }
 
         .contact_form input:required:valid {
-            background: url(../assets/img/valid.png) no-repeat 96% center;
+            background: url(../assets/img/valid.png) no-repeat 97% center;
             box-shadow: 0 0 5px #5cd053;
             border-color: #28921f;
         }
 
     .contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
-        background: url(../assets/img/invalid.png) no-repeat 96% center;
+        background: url(../assets/img/invalid.png) no-repeat 97% center;
         box-shadow: 0 0 5px #d45252;
         border-color: #b03535;
     }
