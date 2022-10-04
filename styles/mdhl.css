@@ -42,7 +42,7 @@ body > div > p {
     font-size: 50px;
     display: initial;
     font-weight: bold;
-    margin-right: 8%;
+    margin-right: 4%;
 }
 
 nav > ul > li {
@@ -89,7 +89,7 @@ li > a {
 li.opcion
 {
    float: left;
-   margin: 0px 20px;
+   margin: 0px 10px;
    border: 2px solid #777777;
    box-shadow: 6px 6px 1px -1px rgba(0,0,0,0.48);
 }
@@ -174,15 +174,10 @@ main > div > div > img {
     opacity: 0.8;
 }
 
-nav {
+/* nav {
     position: absolute;
     top: -70px;
-}
-
-nav > ul {
-    display: flex;
-    justify-content: space-around;
-}
+} */
 
 dt {
     font-weight: bold;
