@@ -14,20 +14,20 @@
 </head>
 
 <body>
-    <div>
-        <p>Mighty Ducks Hockey League</p>
-    </div>
-    <header class="container">
-        <nav class="campo">
-            <ul>
-                <li class="opcion"><a class="opcion" href="../index.html">Home</a></li>
-                <li class="opcion"><a class="opcion" href="./about.html">About</a></li>
-                <li class="opcion"><a class="opcion" href="./contact.html">Contact</a></li>
-                <li class="opcion"><a class="opcion" href="./rules.html">Rules</a></li>
-                <li class="opcion"><a class="opcion" href="./game_info.html">Games</a></li>
-                <li class="opcion" id="button"><a class="opcion" href="./form.html">Form</a></li>
-            </ul>
-        </nav>
+    <header>
+        <div class="nav-container">
+            <p>Mighty Ducks Hockey League</p>
+            <nav>
+                <ul>
+                    <li class="opcion"><a class="opcion" href="../index.html">Home</a></li>
+                    <li class="opcion"><a class="opcion" href="./about.html">About</a></li>
+                    <li class="opcion"><a class="opcion" href="./contact.html">Contact</a></li>
+                    <li class="opcion"><a class="opcion" href="./rules.html">Rules</a></li>
+                    <li class="opcion"><a class="opcion" href="./game_info.html">Games</a></li>
+                    <li class="opcion" id="button"><a class="opcion" href="./form.html">Form</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <p class="caja">Registration Form</p>
@@ -45,8 +45,7 @@
                             <legend>Contact</legend>
                             <div class="container-first-field">
                                 <label for="name">Player's First Name:</label>
-                                <input type="text" id="name" name="name" size="20" required
-                                    placeholder="Insert your first name">
+                                <input type="text" id="name" name="name" required placeholder="Insert your first name">
                             </div>
                             <div class="container-second-field">
                                 <label for="lastName">Last Name:</label>
@@ -55,19 +54,17 @@
                             </div>
                             <div class="container-third-field">
                                 <label for="address">Street Address:</label>
-                                <input type="text" name="address" id="address" size="" required
+                                <input type="text" name="address" id="address" required
                                     pattern="[A-z\s]{1,15}[0-9]{3,4}" placeholder="Insert your address">
                                 <span class="form_hint">Formato correcto: "Street Nº"</span>
                             </div>
                             <div class="container-forth-field">
                                 <label for="city">City:</label>
-                                <input type="text" id="city" name="city" size="36" required
-                                    placeholder="Insert your city from">
+                                <input type="text" id="city" name="city" required placeholder="Insert your city from">
                             </div>
                             <div class="container-fifth-field">
                                 <label for="zipCode">Zip Code:</label>
-                                <input type="text" id="zipCode" name="zipCode" size="21"
-                                    placeholder="Insert your Zip Code">
+                                <input type="text" id="zipCode" name="zipCode" placeholder="Insert your Zip Code">
                             </div>
                             <div class="container-sixth-field">
                                 <label for="date">Birth Date(dd/mm/yyyy):</label>

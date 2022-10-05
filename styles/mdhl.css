@@ -4,6 +4,7 @@ header {
     background-repeat: no-repeat;
     background-position-y: 90%;
     opacity: 0.9;
+    height: 42vh;
 }
 
 html {
@@ -31,18 +32,21 @@ body {
     }
 }
 
-body > div {
+.nav-container {
     border: solid 2px #777777;
     background-color: #abe4b5;
-    opacity: 0.8;
-    text-align: end;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    margin-bottom: 8px;
 }
 
-body > div > p {
-    font-size: 50px;
-    display: initial;
+.nav-container > p {
+    font-size: 45px;
+    display: flex;
     font-weight: bold;
-    margin-right: 4%;
+    margin: inherit;
 }
 
 nav > ul > li {
@@ -59,6 +63,10 @@ nav > ul > li:hover {
     transition: ease 250ms;
 }
 
+nav > ul {
+    padding: 0;
+}
+
 #button {
     background-color:rgb(65, 79, 65);
 }
@@ -72,18 +80,6 @@ li > a {
 .contact p > a {
     color: #abe4b5;
     text-decoration: none;
-}
-
-.container {
-    position: relative;
-    height: 35vh;
-    display: flex;
- 
-}
-
-.campo {
-    display: flex;
-    margin-bottom: 2rem;
 }
 
 li.opcion
